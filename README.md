@@ -2,7 +2,7 @@
 
 This XML Demo was created to demonstrate a simple Python Script that scrapes data from an XML file, exports it to Excel, and executes a macro to set up a Pivot Table.
 
-test_xml.xml = A dummy XML file that shows relevant information for different books.
+test_xml.xml: A dummy XML file that shows relevant information for different books.
 
 xml_parser.py: This is the Python script. It reads from the XML file "test_xml.xml", and creates a readable dataframe using the pandas library. The formatted raw data table is exported to Excel, and the vba script is executed.
 
